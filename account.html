@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expo Online - Login</title>
+    <link rel="stylesheet" href="_css/main.css">
+    <link rel="stylesheet" href="_css/responsive.css" media="screen and (min-width:900px)">
+    
+
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	     <script src="js/jquery.flexslider-min.js"></script>
+
+<style>
+    body{background:white;}
+</style>
+
+</head>
+
+<body>
+
+
+    <div class="balkje"></div>
+    <a class="mannetje"href="account.html"><img src="fotos/man.png" alt="test" class="man"></a>
+    <a class="huisje"href="index.html"><img src="fotos/huisje.png" alt="test" class="huis"></a>
+    <div class="pijlr"> 
+    <button onclick="goBack()">
+       <img src="fotos/pijlr.png" alt="test" width="40px">
+    </button>
+    </div>
+
+
+<div class="wit">
+    <p class="grotetitel marge"> Login</p>
+    
+    <ul>
+        <li class="login">Username</li>
+        <li class="login">Wachtwoord</li>
+        <li class="login inloggen">Login</li><br>
+        <li><a href"#" class="textsubtiel ww">Wachtwoord vergeten?</a></li><br>
+        <li>Geen account? Registreer nu!</li>
+        <li><a href="#" class="verk reg">Registreren ></a> </li>
+    </ul>
+
+</div>
+
+<br>
+
+<div class="zwart">
+    <p class="zwarttitel">Expo Online</p>
+    <ul class="voetul1">
+        <li>Homepagina</li>
+        <li>Populair</li>
+        <li>Streken</li>
+        <li>Categorieën</li>
+        <li>Over ons</li>
+        <li>Over de website</li>
+    </ul>
+    <ul class="voetul2">
+        <li>Faq</li>
+        <li>Fotoboek</li>
+        <li>Hoe werkt het?</li>
+        <li>Garantie</li>
+        <li>Voorwaarden</li>
+    </ul>
+    <ul class="icons">
+        <li> <img src="fotos/fb.png" alt="fb" width="50px"> </li>
+        <li> <img src="fotos/inst.png" alt="fb" width="50px"> </li>
+        <li> <img src="fotos/twit.png" alt="fb" width="50px"> </li>
+        <li> <img src="fotos/yt.png" alt="fb" width="50px"> </li>
+    </ul>
+</div>
+
+<div class="scrollup">
+    <a href="#">
+    <img src="./fotos/scroll.png" alt="scroll" class="scroll">
+    </a>
+</div>
+
+
+<!--scriptjes-->
+    <script>
+$(document).ready(function () {
+	$('.flexslider').flexslider({
+		animation: 'fade',
+		controlsContainer: '.flexslider'
+	});
+});
+</script>
+
+ <script>
+   $(document).ready(function () {
+       $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+               $('.scrollup').fadeIn(500);
+           } else {
+               $('.scrollup').fadeOut(500);
+           }
+       });
+       $('.scrollup').click(function () {
+           $("html, body").animate({
+               scrollTop: 0
+           }, 600);
+           return false;
+       });
+   });
+ </script>
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+</body>
+</html>

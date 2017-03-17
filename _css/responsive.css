@@ -1,0 +1,80 @@
+    body{
+    background: url('louvre.jpeg') repeat fixed center center;
+}
+
+.balkje{
+background: rgba(0,0,0,0.75);
+}
+
+.welkom{
+    font-size: 110px;
+    line-height: 4.55;
+}
+
+button{
+position: fixed;
+}
+
+.minhaClass{
+    height:659px;
+    background: transparent;
+}
+
+.zoeken{
+width: 300px;
+height: 40px;
+border: 0.5px solid white;
+background: #1E3664;
+}
+
+.verkopen {
+    margin:  390px auto;
+}
+
+.marge{
+    margin-top: 50px;
+}
+
+.margetop {
+    margin-top: 100px;
+}
+
+
+.container{
+    padding: 50px 20px 50px;
+    top: 40px;
+    margin-bottom: 40px;
+}
+
+.roze{
+    height: 560px;
+}
+
+ .scrollup {
+    padding-top: 10px;
+   width: 40px;
+   height: 30px;
+   opacity: 0.8;
+   position: fixed;
+   bottom: 50px;
+   right: 60px;
+   background-color: hsla(357, 62%, 63%, 1);
+   text-align: left;
+   border-radius: 25px;
+   z-index: 9;
+ }
+
+ .scrollup:hover{
+     opacity: 1;
+     transition: opacity 0.3s;
+ }
+
+.scroll{
+    width: 25px;
+    position: absolute;
+    right: 7px;
+    top: 12px;
+    margin: 0;
+}
+
+
