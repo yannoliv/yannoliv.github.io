@@ -12,6 +12,15 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Add custom CSS here -->
+    <link href="css/slidefolio.css" rel="stylesheet">
+
+
+
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -22,7 +31,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <nav id="mainav">
       <ul class="clear">
-        <li id="scrolltoportfolio"><a href="#Portfolio">Portfolio</a>
+        <li id="scrolltoportfolio"><a href="#portfolio">Portfolio</a>
         </li>
         <li id="scrolltooverons"><a href="#">Over ons</a>
         </li>
@@ -40,7 +49,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo">
-      <h1><a href="index.html"><img src="logotransp.png" alt="logo">Visionairy</a></h1>
+      <h1><img src="logotransp.png" alt="logo">Visionairy</h1>
       <p>bureaus</p>
     </div>
     <!-- ################################################################################################ -->
@@ -58,54 +67,101 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> 
+  <main class="clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <h2 class="heading btmspace50" id="Portfolio">Portfolio</h2>
 
-    <!-- Fotos -->
-    <ul class="nospace group infolist btmspace50"> 
 
-      <a href="#"><span class="spoiler"><li class="one_third first">
-          <img class="pict" src="hoofdbg1.png" alt="">
-        <span> <div>"De kikker"<p>kdsflmfqsdkml</p></div></span>
-      </li></span></a>
 
-      <a href="#"><span class="spoiler"><li class="one_third ">
-          <img class="pict" src="hoofdbg1.png" alt="">
-        <span> <div>"De fotograaf"<p>kdsflmfqsdkml</p></div></span>
-      </li></span></a>
-      
-      <a href="#"><span class="spoiler"><li class="one_third ">
-          <img class="pict" src="hoofdbg1.png" alt="">
-        <span> <div>De kikker <p>kdsflmfqsdkml</p></div></span>
-      </li></span></a>
-      
-      <a href="#"><span class="spoiler"><li class="one_third">
-          <img class="pict" src="hoofdbg1.png" alt="">
-        <span> <div>De kikker <p>kdsflmfqsdkml</p></div></span>
-      </li></span></a>
-      
-      <a href="#"><span class="spoiler"><li class="one_third">
-          <img class="pict" src="hoofdbg1.png" alt="">
-        <span> <div>De kikker <p>kdsflmfqsdkml</p></div></span>
-      </li></span></a>
-      
-      <a href="#"><span class="spoiler"><li class="one_third">
-          <img class="pict" src="hoofdbg1.png" alt="">
-        <span> <div>De kikker <p>kdsflmfqsdkml</p></div></span>
-      </li></span></a>
-    </ul>
-    <!-- Einde fotos -->
-    <div class="center">
- <a href="#" class="one_third btn">
-    Klik hier voor meer
- </a>
- </div>
 
+
+
+
+
+
+
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+    <div class="container">
+    <div class="row push50">
+          <div class="text-center">
+            <h2 class="header">portfolio</h2>
+			<h3>
+			<span class="filter label label-default" data-filter="all">all</span>
+	<span class="filter label label-default" data-filter="bw">b&amp;w</span>
+	<span class="filter label label-default" data-filter="nature">nature</span>
+	<span class="filter label label-default" data-filter="portraits">portraits</span>
+	</h3>
+          </div>
+        </div>
+		
+		<div class="row">
+		
+		<div class="gallery">
+		
+    		  <ul id="Grid" class="gcontainer">
+
+            <li class="col-md-4 col-sm-4 col-xs-6 mix portraits" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>			  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>			  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix nature all" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>			  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix bw" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>			  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>			  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>			  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>			  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
+                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
+                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+        		    </a>
+      		  </li>
+
+
+
+
+<!-- /Load Photo in Modal -->	
+		</div>	
+      </div>
+		</div>
+      </div>
+    <!-- /Portfolio -->
 
     <!-- ################################################################################################ -->
-    <!-- / main body -->
     <div class="clear"></div>
   </main>
 </div>
@@ -159,41 +215,21 @@ Licence URI: http://www.os-templates.com/template-terms
       <p>Ons bedrijf bestaat uit 3 gemotiveerde medewerkers.</p>
     </div>
     <ul class="nospace group">
+
       <li class="one_third first">
-        <article class="excerpt"><a href="#"><img src="images/demo/320x220.png" alt=""></a>
-          <div class="excerpttxt">
-            <h6 class="heading">Axel Olivier</h6>
-            <ul class="nospace inline pushright font-xs">
-              <li><i class="fa fa-calendar-o"></i> <p>16</p></li>
-              
-          </div>
-        </article>
-      </li>
+<div class="excerpt">
+  <img src="images/demo/320x220.png" alt="" class="personen"><div class="overleg">
+    <p>yannick olivier</p></div></div></li>
       <li class="one_third">
-        <article class="excerpt"><a href="#"><img src="images/demo/320x220.png" alt=""></a>
-          <div class="excerpttxt">
-            <h6 class="heading">Placerat aliquam</h6>
-            <ul class="nospace inline pushright font-xs">
-              <li><i class="fa fa-calendar-o"></i> <p>02/01/45</p></li>
-              <li><i class="fa fa-comments"></i> <a href="#">4</a></li>
-              <li><i class="fa fa-eye"></i><p> 10</p></li>
+<div class="excerpt">
+  <img src="images/demo/320x220.png" alt="" class="personen"><div class="overleg">
+    <p>lore duwez</p></div></div></li>
+          <li class="one_third">
+<div class="excerpt">
+  <img src="images/demo/320x220.png" alt="" class="personen"><div class="overleg">
+    <p>axel olivier</p></div></div></li>
+    
             </ul>
-            <p>Sollicitudin mauris euismod at dictum ex aenean egestas erat at ante sagittis id euismod odio aliquet sed eu mauris at quam&hellip;</p>
-            <p><a href="#">Read More &raquo;</a></p>
-          </div>
-        </article>
-      </li>
-      <li class="one_third">
-        <article class="excerpt"><a href="#"><img src="images/demo/320x220.png" alt=""></a>
-          <div class="excerpttxt">
-            <h6 class="heading">Turpis mattis</h6>
-            <ul class="nospace inline pushright font-xs">
-              <li><i class="fa fa-calendar-o"></i> <p>01/01/45</p></li>
-              <li><i class="fa fa-comments"></i> <a href="#">2</a></li>
-              <li><i class="fa fa-eye"></i> <p>5</p></li>
-            </ul>
-            <p>Posuere nisi nullam luctus viverra finibus duis bibendum sem sit amet fringilla tempor leo tellus rutrum leo quis facilisis elit&hellip;</p>
-            <p><a href="#">Read More &raquo;</a></p>
           </div>
         </article>
       </li>
@@ -208,7 +244,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
       <h2 class="header" id="Diensten">Diensten</h2>
-      <p>Wij staan uiteraard open voor alles wat te maken heeft met ontwerpen, maar wij zijn vooral gespecialiseerd in logo’s, affiches, verpakkitngen, productschetsen,... 
+      <p>Wij staan uiteraard open voor alles wat te maken heeft met ontwerpen, maar wij zijn vooral gespecialiseerd in logo’s, affiches, verpakkingen, productschetsen,... 
 Maar wij maken ook zaken als badges en photomanipulations.</p>
     </div>
     <!-- ################################################################################################ -->
@@ -307,5 +343,65 @@ Klik op een logo om je naar de website te brengen.</p>
 <!-- IE9 Placeholder Support -->
 <script src="layout/scripts/jquery.placeholder.min.js"></script>
 <!-- / IE9 Placeholder Support -->
+
+
+
+
+
+    <!-- /Footer -->
+    <!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+	<script src="js/jquery-scrolltofixed-min.js"></script>
+	<script src="js/jquery.vegas.js"></script>
+	<script src="js/jquery.mixitup.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/bootstrap.js"></script>
+	
+
+
+	</script>
+<!-- /Slideshow Background -->
+
+<!-- Mixitup : Grid -->
+    <script>
+		$(function(){
+    $('#Grid').mixitup();
+      });
+    </script>
+<!-- /Mixitup : Grid -->	
+
+    <!-- Custom JavaScript for Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+<!-- Navbar -->
+<script type="text/javascript">
+$(document).ready(function() {
+        $('#nav').scrollToFixed();
+  });
+    </script>
+<!-- /Navbar-->
+
+
+
+
+
 </body>
 </html>
