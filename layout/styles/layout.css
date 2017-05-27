@@ -245,7 +245,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#FFFFFF; background-color:#2A2A2A;}
+body{color:#FFFFFF; background-color:#2A2A2A; height:100%;}
 a{color:#FFE14B;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -262,19 +262,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFE14B;}
 /* Rows */
 .row0{color:#888888; background-color:#F6F6F6;}
 .row1{
-	color:white; 
-	background-color:black; 
+	color:white; background-color:black; 
 	background-image:url('hoofdbg.png');
-    /* Full height */
-    height: 100%; 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 100%; background-position: center;background-repeat: no-repeat; min-height:100%;
+    background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='hoofdbg.png', sizingMethod='scale')"; /* Voor IE*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='hoofdbg.png', sizingMethod='scale')";
 }
 .row11{color:#888888; background-image:url('achtergrondje.png');background-color:white; background-size: 100%; padding: 100px; font-size: 2em; border-bottom: 6px solid #FFE14B;}
 .row12{color:#888888; background-image:url('achtergrondje.png');background-color:white; background-size: 100%; padding: 100px; font-size: 2em; border-bottom: 6px solid #FFE14B;}
