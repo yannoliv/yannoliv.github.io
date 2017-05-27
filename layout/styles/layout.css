@@ -299,7 +299,6 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFE14B;}
 #introblocks *{color:inherit;}
 #introblocks span{color:rgba(255,255,255,.1)}
 #introblocks article:hover a{color:#FFE14B;}
-#introblocks article.one_third{padding: 50px;}
 
 /* Content Area */
 .infolist li{border-color:#D7D7D7;}
