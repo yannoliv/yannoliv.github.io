@@ -29,21 +29,19 @@ background:#f1f1f1;
     height: auto;
 }
 .gallery a.mix-cover img {
-    width: 100%;
-	
 }
 .gallery a.mix-cover, .gallery span.cover {
     background-color: #FFFFFF;
     border-radius: 4px 4px 0 0;
     display: block;
     overflow: hidden;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 .gallery.portfolio a.mix-cover, .gallery.portfolio a.mix-cover .overlay {
     border-radius: 4px;
 }
 .gallery .mix a img, .gallery .mix a span.overlay {
     border-radius: 4px 4px 0 0;
-    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 .gallery a.mix-cover {
     position: relative;
@@ -109,13 +107,6 @@ span.valign {
     height: 100%;
     vertical-align: middle;
 }
-
-
-
-
-
-
-
 .filter {
 cursor:pointer;
 }

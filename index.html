@@ -1,14 +1,7 @@
 <!DOCTYPE html>
-<!--
-Template Name: Multiswift
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
--->
 <html>
 <head>
-<title>Multiswift</title>
+<title>Visionairy</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
@@ -19,10 +12,13 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- Add custom CSS here -->
     <link href="css/slidefolio.css" rel="stylesheet">
 
-
-
 </head>
-<body id="top">
+
+
+<!-- Loader-->
+<body id="top" onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
+<div style="display:none;" id="myDiv">
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -31,13 +27,11 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <nav id="mainav">
       <ul class="clear">
-        <li id="scrolltoportfolio"><a href="#portfolio">Portfolio</a>
-        </li>
-        <li id="scrolltooverons"><a href="#">Over ons</a>
-        </li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#overons">Over ons</a></li>
         <li class="navlogo" id="backtotop"><a href="#"><img src="logotransp.png" alt="logo"></a></li>
-        <li><a href="#">Diensten</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#diensten">Diensten</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -59,29 +53,15 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
       <div class="pruts"> <img src="pruts.png" alt="pruts"> </div>
       <p>Hallo, wij zijn <span>Visionairy</span>, een klein maar<br>erg gemotiveerd grafisch bureau.<br>Wij streven naar perfectie en creativiteit.</p>
-    </div>
+    </header>
+    </div> <!-- /row11-->
     <!-- ################################################################################################ -->
-  </header>
-</div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div class="wrapper row3"> <!-- Portfolio -->
   <main class="clear"> 
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Portfolio -->
+    
     <div id="portfolio" class="portfolio">
     <div class="container">
     <div class="row push50">
@@ -89,9 +69,9 @@ Licence URI: http://www.os-templates.com/template-terms
             <h2 class="header">portfolio</h2>
 			<h3>
 			<span class="filter label label-default" data-filter="all">all</span>
-	<span class="filter label label-default" data-filter="bw">b&amp;w</span>
-	<span class="filter label label-default" data-filter="nature">nature</span>
-	<span class="filter label label-default" data-filter="portraits">portraits</span>
+	<span class="filter label label-default" data-filter="logos">logos</span>
+	<span class="filter label label-default" data-filter="posters">posters</span>
+	<span class="filter label label-default" data-filter="extra">extra</span>
 	</h3>
           </div>
         </div>
@@ -102,74 +82,80 @@ Licence URI: http://www.os-templates.com/template-terms
 		
     		  <ul id="Grid" class="gcontainer">
 
-            <li class="col-md-4 col-sm-4 col-xs-6 mix portraits" data-cat="nature">
-                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
-                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+            <li class="col-md-4 col-sm-4 col-xs-6 mix extra" data-cat="extra">
+                <a data-toggle="modal" data-target="#extra" class="mix-cover">
+                  <img class="horizontal" src="img/cv.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">cv</span></span>
         		    </a>
-      		  </li>			  
-            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
-                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
-                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+      		  </li>			  	  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix posters" data-cat="posters">
+                <a data-toggle="modal" data-target="#posters" class="mix-cover">
+                  <img class="horizontal" src="img/nvdj.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">poster NVDJ</span></span>
         		    </a>
-      		  </li>			  
-            <li class="col-md-4 col-sm-4 col-xs-6 mix nature all" data-cat="nature">
-                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
-                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+      		  </li>			    
+            <li class="col-md-4 col-sm-4 col-xs-6 mix posters" data-cat="posters">
+                <a data-toggle="modal" data-target="#posters" class="mix-cover">
+                  <img class="horizontal" src="img/posterlodo.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">poster LODO</span></span>
         		    </a>
-      		  </li>			  
-            <li class="col-md-4 col-sm-4 col-xs-6 mix bw" data-cat="nature">
-                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
-                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+      		  </li>				  
+                <li class="col-md-4 col-sm-4 col-xs-6 mix logos" data-cat="logos">
+                <a data-toggle="modal" data-target="#logos" class="mix-cover">
+                  <img class="imglogo" src="img/logo1.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Logo YANN</span></span>
         		    </a>
-      		  </li>			  
-            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
-                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
-                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+      		  </li>				  
+                        <li class="col-md-4 col-sm-4 col-xs-6 mix logos" data-cat="logos">
+                <a data-toggle="modal" data-target="#logos" class="mix-cover">
+                  <img class="imglogo" src="img/logo2.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Logo Swimmers</span></span>
         		    </a>
-      		  </li>			  
-            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
-                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
-                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+      		  </li>					
+             <li class="col-md-4 col-sm-4 col-xs-6 mix logos" data-cat="logos">
+                <a data-toggle="modal" data-target="#logos" class="mix-cover">
+                  <img class="imglogo" src="img/logo3.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Logo Tortoise</span></span>
         		    </a>
-      		  </li>			  
-            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
-                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
-                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+      		  </li>		
+             <li class="col-md-4 col-sm-4 col-xs-6 mix logos" data-cat="logos">
+                <a data-toggle="modal" data-target="#logos" class="mix-cover">
+                  <img class="imglogo" src="img/logo4.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Logo Newt-on</span></span>
         		    </a>
-      		  </li>			  
-            <li class="col-md-4 col-sm-4 col-xs-6 mix nature" data-cat="nature">
-                <a data-toggle="modal" data-target="#nature1" class="mix-cover">
-                  <img class="horizontal" src="img/nature1.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">Nature 1</span></span>
+      		  </li>				  
+            <li class="col-md-4 col-sm-4 col-xs-6 mix logos" data-cat="logos">
+                <a data-toggle="modal" data-target="#logos" class="mix-cover">
+                  <img class="imglogo" src="img/logo5.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Logo Toad</span></span>
         		    </a>
-      		  </li>
-
-
-
-
+      		  </li>				  
+                                    <li class="col-md-4 col-sm-4 col-xs-6 mix posters" data-cat="posters">
+                <a data-toggle="modal" data-target="#posters" class="mix-cover">
+                  <img class="horizontal" src="img/festival.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">boekje BredaLive</span></span>
+        		    </a>
+      		  </li>				  	  
+              <li class="col-md-8 col-sm-8 col-xs-12 mix extra" data-cat="extra">
+                <a data-toggle="modal" data-target="#extra" class="mix-cover">
+                  <img class="horizontal" src="img/water.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">photoshop manipulation</span></span>
+        		    </a>
+      		  </li>		
 <!-- /Load Photo in Modal -->	
 		</div>	
       </div>
 		</div>
-      </div>
-    <!-- /Portfolio -->
-
+      </div><!-- /Portfolio -->
     <!-- ################################################################################################ -->
     <div class="clear"></div>
   </main>
-</div>
+</div><!-- /row3-->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="bgded" style="background-image:url('images/demo/backgrounds/01.png');"> 
+<div class="bgded" id="overons" style="background-image:url('images/demo/backgrounds/01.png');"> 
   <!-- ################################################################################################ -->
   <div class="wrapper">
     <article id="pageintro" class="hoc clear"> 
@@ -202,8 +188,7 @@ Licence URI: http://www.os-templates.com/template-terms
     </div>
   </div>
   <!-- ################################################################################################ -->
-</div>
-<!-- End Top Background Image Wrapper -->
+</div><!-- /bgded -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -218,42 +203,36 @@ Licence URI: http://www.os-templates.com/template-terms
 
       <li class="one_third first">
 <div class="excerpt">
-  <img src="images/demo/320x220.png" alt="" class="personen"><div class="overleg">
+  <img src="img/yannick.png" alt="" class="personen"><div class="overleg">
     <p>yannick olivier</p></div></div></li>
       <li class="one_third">
 <div class="excerpt">
-  <img src="images/demo/320x220.png" alt="" class="personen"><div class="overleg">
+  <img src="img/lore.png" alt="" class="personen"><div class="overleg">
     <p>lore duwez</p></div></div></li>
           <li class="one_third">
 <div class="excerpt">
-  <img src="images/demo/320x220.png" alt="" class="personen"><div class="overleg">
-    <p>axel olivier</p></div></div></li>
+  <img src="img/joeri.png" alt="" class="personen"><div class="overleg">
+    <p>joeri olivier</p></div></div></li>
     
             </ul>
-          </div>
-        </article>
-      </li>
-    </ul>
-    <!-- ################################################################################################ -->
   </section>
-</div>
+  </div> <!-- /row3-->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row12">
+<div class="wrapper row12" id="diensten">
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
       <h2 class="header" id="Diensten">Diensten</h2>
       <p>Wij staan uiteraard open voor alles wat te maken heeft met ontwerpen, maar wij zijn vooral gespecialiseerd in logo’s, affiches, verpakkingen, productschetsen,... 
 Maar wij maken ook zaken als badges en photomanipulations.</p>
-    </div>
     <!-- ################################################################################################ -->
   </header>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row12">
+<div class="wrapper row12" id="contact">
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
       <h2 class="header" id="Contact">Contact</h2>
@@ -261,15 +240,14 @@ Maar wij maken ook zaken als badges en photomanipulations.</p>
 Klik op een logo om je naar de website te brengen.</p>
 
 <ul class="wrappercontact">
-  <li><a href="#"><img class="smb" src="smb.png" alt=""></a></li>
-  <li><img class="smb" src="smb.png" alt=""></li>
-  <li><img class="smb" src="smb.png" alt=""></li>
-  <li><img class="smb" src="smb.png" alt=""></li>
-  <li><img class="smb" src="smb.png" alt=""></li>
-  <li><img class="smb" src="smb.png" alt=""></li>
+  <li><a href="#"><img class="smb" src="img/smb1.png" alt=""></a></li>
+  <li><a href="#"><img class="smb" src="img/smb2.png" alt=""></a></li>
+  <li><a href="#"><img class="smb" src="img/smb3.png" alt=""></a></li>
+  <li><a href="#"><img class="smb" src="img/smb4.png" alt=""></a></li>
+  <li><a href="#"><img class="smb" src="img/smb5.png" alt=""></a></li>
+  <li><a href="#"><img class="smb" src="img/smb6.png" alt=""></a></li>
 </ul>
 
-    </div>
     <!-- ################################################################################################ -->
   </header>
 </div>
@@ -280,7 +258,7 @@ Klik op een logo om je naar de website te brengen.</p>
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">
-      <h6 class="title">Meer info Contact</h6>
+      <h6 class="title">Meer info</h6>
       <ul class="nospace linklist contact">
         <li><i class="fa fa-map-marker"></i>
           <address>
@@ -294,29 +272,26 @@ Klik op een logo om je naar de website te brengen.</p>
       </ul>
     </div>
     <div class="one_third">
-      <h6 class="title">Ultrices curabitur</h6>
+      <h6 class="title">Kruimels</h6>
       <ul class="nospace linklist">
-        <li><a href="#">Donec non rhoncus dui vel</a></li>
-        <li><a href="#">Tortor sed sed ligula odio</a></li>
-        <li><a href="#">Malesuada vestibulum quis</a></li>
-        <li><a href="#">In sodales risus erat vel</a></li>
-        <li><a href="#">Turpis dictum at ante ipsum</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#overons">Over ons</a></li>
+        <li><a href="#diensten">Diensten</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
     <div class="one_third">
-      <h6 class="title">Tempus a dolor</h6>
-      <p class="btmspace-30">Primis in faucibus orci luctus et ultrices posuere cubilia.</p>
+      <h6 class="title">Nieuwsbrief</h6>
+      <p class="btmspace-30">Vul uw gegevens in voor onze wekelijkse nieuwsbrief te ontvangen</p>
       <form method="post" action="#">
         <fieldset>
           <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Naam">
           <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
+          <button type="submit" value="submit">Verzend</button>
         </fieldset>
       </form>
-    </div>
-
-      </ul>
     </div>
     <!-- ################################################################################################ -->
   </footer>
@@ -332,10 +307,12 @@ Klik op een logo om je naar de website te brengen.</p>
     <!-- ################################################################################################ -->
   </div>
 </div>
+
+
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+
 <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
@@ -343,10 +320,6 @@ Klik op een logo om je naar de website te brengen.</p>
 <!-- IE9 Placeholder Support -->
 <script src="layout/scripts/jquery.placeholder.min.js"></script>
 <!-- / IE9 Placeholder Support -->
-
-
-
-
 
     <!-- /Footer -->
     <!-- Bootstrap core JavaScript -->
@@ -399,6 +372,20 @@ $(document).ready(function() {
     </script>
 <!-- /Navbar-->
 
+    </div> <!-- End loader end body ####################-->
+    <!-- Loader script-->
+    <script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
 
 
 
