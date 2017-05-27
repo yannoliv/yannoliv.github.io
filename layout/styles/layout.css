@@ -142,7 +142,7 @@ File: Layout CSS
 
 .excerpt{position: relative;cursor:pointer;}
 .excerpt:hover .overleg{opacity:1;}
-.excerpt .personen{height:340px; width:100%;}
+.excerpt .personen{height:450px; width:100%;}
 .excerpt  p{color: white!important;text-transform: uppercase;font-size: 20px;
   position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);-ms-transform: translate(-50%, -50%);}
 .overleg{position: absolute;top: 0;bottom: 0;left: 0;right: 0;
