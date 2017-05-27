@@ -1,12 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Multiswift
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("fontawesome-4.5.0.min.css");
 @import url("framework.css");
@@ -278,7 +270,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFE14B;}
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .row11{color:#888888; background-image:url('achtergrondje.png');background-color:white; background-size: 100%; padding: 100px; font-size: 2em; border-bottom: 6px solid #FFE14B;}
 .row12{color:#888888; background-image:url('achtergrondje.png');background-color:white; background-size: 100%; padding: 100px; font-size: 2em; border-bottom: 6px solid #FFE14B;}
 .row2{color:inherit; background-color:rgba(29,29,29,.35);}
