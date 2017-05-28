@@ -4,6 +4,7 @@
 <title>Visionairy</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Hallo, wij zijn Visionairy, een klein maar erg gemotiveerd grafisch bureau. Wij streven naar perfectie en creativiteit.">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <link rel="icon" href="logotransp.png">
 <!-- css voor portfolio -->
@@ -128,18 +129,26 @@
         		      <span class="overlay"><span class="valign"></span><span class="title">Logo Toad</span></span>
         		    </a>
       		  </li>				  
-                                    <li class="col-md-4 col-sm-4 col-xs-6 mix posters" data-cat="posters">
-                <a data-toggle="modal" data-target="#posters" class="mix-cover">
-                  <img class="horizontal" src="img/festival.jpg" alt="placeholder">
-        		      <span class="overlay"><span class="valign"></span><span class="title">boekje BredaLive</span></span>
+
+            <li class="col-md-4 col-sm-4 col-xs-6 mix logos" data-cat="logos">
+                <a data-toggle="modal" data-target="#logos" class="mix-cover">
+                  <img class="imglogo" src="img/logo6.png" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">Logo Toad</span></span>
         		    </a>
-      		  </li>				  	  
+      		  </li>						  	  
               <li class="col-md-8 col-sm-8 col-xs-12 mix extra" data-cat="extra">
                 <a data-toggle="modal" data-target="#extra" class="mix-cover">
                   <img class="horizontal" src="img/water.png" alt="placeholder">
         		      <span class="overlay"><span class="valign"></span><span class="title">photoshop manipulation</span></span>
         		    </a>
-      		  </li>		
+      		  </li>
+            <li class="col-md-4 col-sm-4 col-xs-6 mix posters" data-cat="posters">
+                <a data-toggle="modal" data-target="#posters" class="mix-cover">
+                  <img class="horizontal" src="img/festival.jpg" alt="placeholder">
+        		      <span class="overlay"><span class="valign"></span><span class="title">boekje BredaLive</span></span>
+        		    </a>
+      		  </li>
+
 <!-- /Load Photo in Modal -->	
 		</div>	
       </div>
@@ -246,6 +255,37 @@ Klik op een logo om je naar de website te brengen.</p>
   <li><a href="#"><img class="smb" src="img/smb6.png" alt=""></a></li>
 </ul>
 
+<!-- #####################################################-->
+
+<div class="header">contact formulier</div>
+
+<div class="container form btmspace-50">
+  <form action="/action_page.php">
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Your e-mail..">
+
+    <label for="country">Land</label>
+    <select id="country" name="country">
+      <option value="australia">België</option>
+      <option value="canada">Nederland</option>
+      <option value="usa">Luxemburg</option>
+    </select>
+
+    <label for="subject">Eventuele opmerkingen</label>
+    <textarea id="subject" name="subject" placeholder="Schrijf iets.." style="height:200px"></textarea>
+
+    <button type="submit" value="submit">Verzend</button>
+  </form>
+</div>
+
+
+
 <!-- Maps location-->
 <div class="btmspace-50 center">Vind ook ons op locatie!</div>
 <iframe class="imaps" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJvd9fBxG9w0cRITN3CG7AKgY&key=AIzaSyB1W6CznP90h03gVaIurUH4mX8RgL5Pn_s" allowfullscreen></iframe>
@@ -260,7 +300,7 @@ Klik op een logo om je naar de website te brengen.</p>
   <footer id="footer" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="one_third first">
-      <h6 class="title">Meer info</h6>
+      <h6 class="title">meer info</h6>
       <ul class="nospace linklist contact">
         <li><i class="fa fa-map-marker"></i>
           <address>
@@ -274,7 +314,7 @@ Klik op een logo om je naar de website te brengen.</p>
       </ul>
     </div>
     <div class="one_third">
-      <h6 class="title">Kruimels</h6>
+      <h6 class="title">links</h6>
       <ul class="nospace linklist">
         <li><a href="#">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
@@ -284,7 +324,7 @@ Klik op een logo om je naar de website te brengen.</p>
       </ul>
     </div>
     <div class="one_third">
-      <h6 class="title">Nieuwsbrief</h6>
+      <h6 class="title">nieuwsbrief</h6>
       <p class="btmspace-30">Vul uw gegevens in voor onze wekelijkse nieuwsbrief te ontvangen</p>
       <form method="post" action="#">
         <fieldset>
@@ -304,7 +344,7 @@ Klik op een logo om je naar de website te brengen.</p>
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->
-    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Visionairy</a></p>
     <p class="fl_right">Website by <a href="#" title="YannickOlivier">Yannick Olivier</a></p>
     <!-- ################################################################################################ -->
   </div>
@@ -318,7 +358,6 @@ Klik op een logo om je naar de website te brengen.</p>
 <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
-<script src="layout/scripts/jquery.placeholder.min.js"></script>
 	<script src="layout/scripts/jquery.mixitup.min.js"></script>
 
 <!-- Mixitup : Grid -->
@@ -347,12 +386,6 @@ Klik op een logo om je naar de website te brengen.</p>
           }
         });
       });
-    </script>
-<!-- Navbar -->
-<script type="text/javascript">
-$(document).ready(function() {
-        $('#nav').scrollToFixed();
-  });
     </script>
 <!-- /Navbar-->
 
