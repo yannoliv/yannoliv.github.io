@@ -4,15 +4,24 @@
 }
 
 @font-face { 
-    font-family: 'Dosis-Bold';
-    src: url('fonts/Dosis/Dosis-SemiBold.otf');
+    font-family: 'Gotham-Bold';
+    src: url('fonts/gotham/GOTHAM-MEDIUM.ttf');
 }
 
 @font-face { 
-    font-family: 'Audrey-Regular';
-    src: url('fonts/Audrey/Audrey-Normal.otf');
+    font-family: 'Gotham-rounded-book';
+    src: url('fonts/gotham/gotham-rounded-book.otf');
 }
 
+@font-face { 
+    font-family: 'GothamNarrow-Book';
+    src: url('fonts/gotham/GothamNarrow-Book.otf');
+}
+
+@font-face { 
+    font-family: 'Typo-Grotesk-Demo';
+    src: url('fonts/gotham/Typo-Grotesk-Demo.otf');
+}
 
 
 

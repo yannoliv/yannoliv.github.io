@@ -2,14 +2,14 @@
 @import url("fonts.css");
 
 
-/* Ik heb deze css file enkel gebruikt voor mijn portfolio.*/
 .active {
 color:#FFE14B;
 }
-
+/* DESIGN */
 .portfolio {
 background:#f1f1f1;
-}		
+}	
+
 /* gallery */
 .gallery {
     overflow: hidden;
@@ -94,11 +94,10 @@ img.placeholder {
     color: #FFFFFF;
     font-size: 40px;
     position: relative;
-    top: -60px;
     transition: all 0.3s ease 0s;
 }
 .overlay span.title {
-    font-size: 30px;
+    font-size: 16px;
 }
 .overlay:hover i, .overlay:hover span.title {
     top: 10px;
@@ -106,7 +105,7 @@ img.placeholder {
 
 span.valign {
     display: inline-block;
-    height: 100%;
+    height: 50%;
     vertical-align: middle;
 }
 .filter {
