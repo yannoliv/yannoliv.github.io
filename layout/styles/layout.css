@@ -6,41 +6,6 @@
 
 
 
-/* Loader
---------------------------------------------------------------------------------------------------------------- */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #FFE14B;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
-}
-
-
 
 /* Rows
 ---------------------------------------------------------------------------------------------------------------*/
@@ -48,7 +13,7 @@
 .row1
 {
 	color:white; background-color:#888888;; 
-	background-image:url('hoofdbg.png');
+	background-image:url("../../img/ikzelf_2.jpg");
     background-size: 100% 100%;
 	height: -webkit-fill-available;
 	min-height:600px;
@@ -84,7 +49,7 @@
 
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
-#topbar{background:rgba(200,200,200,0.9);color:white; margin:0;}
+#topbar{background:rgba(50,50,50,0.6);color:white; margin:0;}
 
 #topbar .faico{margin-top:14px;}
 #topbar .faico li{margin:0;}
@@ -220,7 +185,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFE14B;}
 .overlay{color:#FFFFFF; background-color:inherit;}
 .overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
 
-.colouredborder{border-color:#FFE14B; position:fixed;z-index: 20;}/* Same as the logo colour */
+.colouredborder{position:fixed;z-index: 20;}/* Same as the logo colour */
 .colouredborder::before, .colouredborder::after{background-color:white;}/* Same as the logo shadow colour */
 
 
@@ -280,12 +245,11 @@ button{color:#FFFFFF; background-color:#FFE14B;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#FFE14B;}
 
-#mainav{ font-size: 1.2em;}
 #mainav ul{text-transform:uppercase; text-align:center;}
 #mainav li{display:inline-block; position:relative; margin:0 10px 0 0; padding:0;}
 #mainav li:last-child{margin:0;}
 #mainav li li{width:100%; margin:0;}
-#mainav li a{display:block; padding:20px 0;}
+#mainav li a{display:block; padding:10px 0;}
 #mainav li li a{border:solid; border-width:0 0 1px 0;}
 #mainav ul ul{visibility:hidden; opacity:0;}
 #mainav ul li:hover > ul{visibility:visible; opacity:1;}
@@ -293,7 +257,7 @@ button{color:#FFFFFF; background-color:#FFE14B;}
 nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 /* Back to Top (navlogo)*/
-.navlogo{width: 3em;}
+.navlogo{width: 2em;}
 #backtotop{z-index:200; opacity:.7;}
 #backtotop.visible{visibility:visible; opacity:.5;}
 #backtotop:hover{opacity:1;}
