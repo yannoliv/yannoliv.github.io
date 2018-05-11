@@ -196,8 +196,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFE14B;}
 
 /* Inleiding
 ---------------------------------------------------------------------------------------------------------------*/
-.pruts{width: 400px;height: 240px;margin: auto auto -150px;}
-.pruts img{width: 100%;height: auto;}
+.btn_over
+{
+	color:white;
+}
 
 /* Informatica row2
 ---------------------------------------------------------------------------------------------------------------*/
