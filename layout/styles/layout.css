@@ -190,7 +190,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#FFE14B;}
 
 /* Header 
 ---------------------------------------------------------------------------------------------------------------*/
-#header #logo *{color:inherit;}
+#header #logo *{color:inherit;    text-shadow: 1px 1px rgba(55,55,55,0.7);}
 #header #logo i{color:#FFE14B; text-shadow:0 25px #E5E5E5;}/* Text shadow used to create a type of logo effect - not for shadow in this case */
 
 /* Inleiding
